@@ -1,0 +1,120 @@
+/*      -- NAVIGATION BAR --        */
+.navbar ul { /* NavBar Text */
+    list-style-type: none;
+    padding: 0px;
+    background-color: rgba(168, 167, 255, 0.3);
+    margin: 0px;
+    overflow: hidden;
+    font-size: 32px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+    
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: black;
+    text-align: center;
+}
+
+.navbar li {
+    float: right;
+}
+
+.navbar a:hover { /* NavBar Hover */
+    background-color: rgb(72, 72, 75);
+    border-style: inset;
+    border-radius: 20px;
+}
+    
+.navbar ul{ /* NavBar border */
+        
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 5px solid rgb(255, 255, 255,0.3);
+}
+    
+
+.socials {
+    margin-bottom: 500px;
+}
+/*      --TEXT FONTS--      */
+@font-face { /* Madoka Magica Font */
+    src: url(text/GD-MadoMaruGoJA-Rev001.otf);
+    font-family: Madoka-Magic;
+}
+
+
+@font-face { /* CyberPunk Style */
+    src: url(text/SAIBA-45.ttf);
+    font-family: Cyber_Punk;
+}
+
+
+
+/*      --MAIN BODY--       */
+    img { /* Top Left Icon */
+        width: 60px;
+    }
+
+    body { /* B.G. Color */
+        background: linear-gradient(rgb(31, 28, 30),rgb(36, 34, 37));
+    }
+
+
+    .banner { /* Box1 */
+        font-family: Cyber_Punk;
+        color: white;
+        background-color: rgb(46, 38, 49);
+        border: 5px solid rgb(255, 255, 255);
+        margin: auto;
+        margin-top: 30px; /* Height of SKETCH box */
+        font-size: 64px;
+        border-radius: 25px;
+        display: flex;
+        justify-content: center;
+
+
+
+/*      -! Draw Banner in future !-
+        background-image: url(images/);
+        fill: 0.5;
+        background-position: center;
+        background-size: cover;
+        */
+    }
+    
+    .MainBox {
+        font-family: Madoka-Magic;
+        background-color: rgb(69, 62, 78);
+        color: rgb(255, 255, 255);
+        margin: auto;
+        width:1920px;
+        height: 800px;
+
+        border-radius: 25px;
+        margin-top: 50px; /* Distance|Spacing of the Main Boxes */
+        font-size: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    /* Make chages later in the future (Customize) */
+    #MyBox1 {
+
+    }
+    
+    #MyBox2 {
+
+    }
+    
+    #MyBox3 {
+        font-size: 48px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
